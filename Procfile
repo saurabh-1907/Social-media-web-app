@@ -1,1 +1,2 @@
-web: gunicorn Social-media-web-app.wsgi --log-file -
+web: python socials/manage.py runserver
+
